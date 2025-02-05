@@ -3,7 +3,7 @@ import HomePage from "./components/pages/HomePage";
 import TeamPage from './components/pages/TeamPage';
 import ProjectsPage from './components/pages/ProjectsPage';
 import DefaultLayout from './components/layout/DefaultLayout';
-import ContactPage from './components/pages/ContactPages';
+import ContactPage from './components/pages/ContactPage';
 
 function App() {
   return (
