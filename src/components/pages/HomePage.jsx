@@ -5,9 +5,9 @@ import HeroComponent from "../common/HeroComponent";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-black text-white">
-      <HeroComponent />
+    <div className="min-h-screen  text-white">
 
+      <HeroComponent />
     </div>
   );
 }
