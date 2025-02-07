@@ -6,10 +6,10 @@ export default function HeroComponent() {
 
 
   return (
-    <div className="bg-none relative flex items-center justify-center text-center relative text-white">
+    <div className="h-150 bg-none relative flex items-center justify-center text-center relative text-white">
 
       {/* Video */}
-      <iframe className="h-full w-full h-full bg-none object-cover" src="https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"></iframe>
+      <iframe className="h-full w-full bg-none object-cover" src="https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"></iframe>
 
       <Link
         to="/progetti"

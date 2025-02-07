@@ -6,7 +6,7 @@ export default function DefaultLayout() {
     return (
         <>
             <HeaderComponent />
-            <main>
+            <main className="min-h-screen">
                 <Outlet />
             </main>
             <FooterComponent />
