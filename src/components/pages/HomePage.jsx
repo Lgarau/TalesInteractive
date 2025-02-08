@@ -16,7 +16,7 @@ export default function HomePage() {
 
           {/* Vision Section */}
           <div>
-            <i class="fa-solid fa-eye"></i>
+            <i className="fa-solid fa-eye"></i>
             <div className="flex-1 p-6 rounded-lg max-w-150 ">
               <h2 className="text-4xl font-bold text-center mb-6">Visione</h2>
               <p className="text-lg text-white-700">
@@ -28,7 +28,7 @@ export default function HomePage() {
 
           {/* Team Section */}
           <div className="">
-            <i class="fa-solid fa-people-group"></i>
+            <i className="fa-solid fa-people-group"></i>
             <div className="mflex-1 p-6 rounded-lg max-w-150">
               <h2 className="text-4xl font-bold text-center mb-6">Il Team</h2>
               <p className="text-lg text-white-700">
@@ -43,7 +43,7 @@ export default function HomePage() {
 
           {/* Mission Section */}
           <div>
-            <i class="fa-solid fa-flag"></i>
+            <i className="fa-solid fa-flag"></i>
             <div className="flex-1 p-6 rounded-lg max-w-150">
               <h2 className="text-4xl font-bold text-center mb-6">Missione</h2>
               <p className="text-lg text-white-700">

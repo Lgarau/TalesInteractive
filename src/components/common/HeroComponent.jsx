@@ -11,18 +11,18 @@ export default function HeroComponent() {
 
 
       <img src={imgPH} alt="Game-Frame" className="h-full z-900 w-full bg-none object-contain" />
-      <div id="links" className="translate z-1000" >
-        <Link
-          to="/progetti"
-          className="absolute ml-50 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-lg shadow-lg hover:bg-opacity-80 z-1000">
-          Vedi Trailer
-        </Link>
-        <Link
-          to="/progetti"
-          className="absolute mr-50 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-lg shadow-lg hover:bg-opacity-80 z-1000">
-          Scopri di più
-        </Link>
-      </div>
+
+
+      <Link
+        to="/progetti"
+        className="absolute ml-50 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-lg shadow-lg hover:bg-opacity-80 z-1000">
+        Vedi Trailer
+      </Link>
+      <Link
+        to="/progetti"
+        className="absolute mr-50 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-lg shadow-lg hover:bg-opacity-80 z-1000">
+        Scopri di più
+      </Link>
     </div>
 
   );
