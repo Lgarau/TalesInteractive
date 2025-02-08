@@ -18,31 +18,19 @@ export default function TeamPage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 my-30">
 
         <div className="bg-white p-8 rounded-lg shadow-md text-center">
-          <img
-            src="/path/to/team-member1.jpg"
-            alt="Membro del Team"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
-          />
+          <i class="text-[#a0522d] fa-solid fa-user-large rounded-full mx-auto mb-4 "></i>
           <h3 className="text-xl font-semibold text-[#a0522d] mb-2">Daniele</h3>
           <p className="text-gray-700">Ceo e Founder.</p>
         </div>
 
         <div className="bg-white p-8 rounded-lg shadow-md text-center">
-          <img
-            src="/path/to/team-member2.jpg"
-            alt="Membro del Team"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
-          />
+          <i class="text-[#a0522d] fa-solid fa-user-large rounded-full mx-auto mb-4 "></i>
           <h3 className="text-xl font-semibold text-[#a0522d] mb-2">Joe</h3>
           <p className="text-gray-700">Art Director.</p>
         </div>
 
         <div className="bg-white p-8 rounded-lg shadow-md text-center">
-          <img
-            src="/path/to/team-member3.jpg"
-            alt="Membro del Team"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
-          />
+          <i class="text-[#a0522d] fa-solid fa-user-large rounded-full mx-auto mb-4 "></i>
           <h3 className="text-xl font-semibold text-[#a0522d] mb-2">Gloria</h3>
           <p className="text-gray-700">3D Designer.</p>
         </div>

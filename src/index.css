@@ -1,9 +1,22 @@
 @import "tailwindcss";
 
-main {
+main,
+header,
+footer {
     background-image: linear-gradient(to left, #a0512d21, black 80%, #a0512d21);
 
 }
+
+i {
+    font-size: 500%;
+    color: #a0522d;
+
+}
+
+.my-nav {
+    margin: 0;
+}
+
 
 
 
