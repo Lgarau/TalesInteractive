@@ -1,8 +1,8 @@
+import teamMembers from "../../data/team-members";
+import TeamComponent from "../common/TeamComponent";
 export default function TeamPage() {
   return (
     <div className="py-10 px-10 bg-black-100">
-
-
 
       {/* About Us Section */}
       <div className="max-w-4xl mx-auto text-center mb-12">
@@ -16,24 +16,10 @@ export default function TeamPage() {
 
       {/* Team Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 my-30">
+        {teamMembers.map((member) => {
+          return <TeamComponent key={member.id} name={member.name} surname={member.surname} role={member.role} image={member.img} />
 
-        <div className="bg-white p-8 rounded-lg shadow-md text-center">
-          <i class="text-[#a0522d] fa-solid fa-user-large rounded-full mx-auto mb-4 "></i>
-          <h3 className="text-xl font-semibold text-[#a0522d] mb-2">Daniele</h3>
-          <p className="text-gray-700">Ceo e Founder.</p>
-        </div>
-
-        <div className="bg-white p-8 rounded-lg shadow-md text-center">
-          <i class="text-[#a0522d] fa-solid fa-user-large rounded-full mx-auto mb-4 "></i>
-          <h3 className="text-xl font-semibold text-[#a0522d] mb-2">Joe</h3>
-          <p className="text-gray-700">Art Director.</p>
-        </div>
-
-        <div className="bg-white p-8 rounded-lg shadow-md text-center">
-          <i class="text-[#a0522d] fa-solid fa-user-large rounded-full mx-auto mb-4 "></i>
-          <h3 className="text-xl font-semibold text-[#a0522d] mb-2">Gloria</h3>
-          <p className="text-gray-700">3D Designer.</p>
-        </div>
+        })}
       </div>
 
       {/* projects */}
