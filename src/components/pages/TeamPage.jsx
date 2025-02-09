@@ -1,5 +1,5 @@
-import teamMembers from "../../data/team-members";
-import TeamComponent from "../common/TeamComponent";
+
+import TeamComponent from "../unique/TeamComponent";
 export default function TeamPage() {
   return (
     <div className="py-10 px-10 bg-black-100">
@@ -15,12 +15,8 @@ export default function TeamPage() {
       </div>
 
       {/* Team Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 my-30">
-        {teamMembers.map((member) => {
-          return <TeamComponent key={member.id} name={member.name} surname={member.surname} role={member.role} image={member.img} />
 
-        })}
-      </div>
+      <TeamComponent />
 
       {/* projects */}
       <div className="my-30 px-10 bg-black-100">
@@ -29,7 +25,7 @@ export default function TeamPage() {
       </div>
 
       {/* mission and values */}
-      <div className="my-30 flex flex-col my-30 md:flex-row gap-10">
+      <div className="my-30 flex flex-col my-30 md:flex-row gap-10 text-center">
         {/* Mission Section */}
         <div className="flex-1 p-6 rounded-lg">
           <h3 className="text-3xl font-bold text-[#a0522d] mb-4">Missione</h3>

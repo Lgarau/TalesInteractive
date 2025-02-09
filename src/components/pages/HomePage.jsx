@@ -1,5 +1,6 @@
-import HeroComponent from "../unique/HeroComponent";
-import HomeContentComponent from "../unique/HomeContentComponent";
+import HeroComponent from "../common/HeroComponent";
+import CarouselComponent from "../common/CarouselComponent";
+import HomeContentComponent from "../common/HomeContentComponent";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,8 @@ export default function HomePage() {
       <HeroComponent />
 
       <HomeContentComponent />
+
+      <CarouselComponent />
 
     </div >
   );
