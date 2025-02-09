@@ -7,7 +7,9 @@ export default function DefaultLayout() {
         <>
             <HeaderComponent />
             <main className="min-h-screen">
-                <Outlet />
+                <div className="container mx-auto">
+                    <Outlet />
+                </div>
             </main>
             <FooterComponent />
         </>
