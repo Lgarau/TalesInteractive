@@ -89,7 +89,7 @@ const TeamMembers = [
         surname: "Harris",
         role: "Producer",
         img: "https://placehold.co/600x600"
-    }
+    },
 ];
 
 export default TeamMembers

@@ -4,7 +4,7 @@ import HomeContentComponent from "../common/HomeContentComponent";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen text-white pb-30">
+    <div className="min-h-screen no-scrollbar text-white pb-30">
 
       <HeroComponent />
 

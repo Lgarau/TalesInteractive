@@ -2,8 +2,7 @@
 import TeamComponent from "../unique/TeamComponent";
 export default function TeamPage() {
   return (
-    <div className=" px-10
-    ">
+    <div className="px-10">
 
       {/* About Us Section */}
       <div className="max-w-4xl mx-auto text-center pt-30 pb-45">
