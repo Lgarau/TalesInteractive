@@ -21,6 +21,11 @@ i {
     margin: 0;
 }
 
+.carousel.img {
+    width: 600px !important;
+    height: auto !important;
+}
+
 
 
 
