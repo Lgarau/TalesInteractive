@@ -9,7 +9,7 @@ export default function HomePage() {
 
       <HeroComponent />
       <section>
-        <div className="flex flex-wrap justify-center gap-20 text-center pt-30 column-3" >
+        <div className="flex flex-wrap justify-center gap-20 text-center my-20 column-3" >
           {homeinfo.map((info) => {
             return <HomeInfoComponent key={info.id} title={info.title} content={info.content} icon={info.icon} />
           })}

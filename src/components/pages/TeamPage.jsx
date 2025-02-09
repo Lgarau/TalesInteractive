@@ -1,11 +1,11 @@
 
-import TeamComponent from "../unique/TeamComponent";
+import TeamMembersComponent from "../common/TeamMembersComponent";
 export default function TeamPage() {
   return (
     <section>
 
       {/* About Us Section */}
-      <div className="max-w-4xl mx-auto text-center pt-30 pb-45">
+      <div className="max-w-4xl mx-auto text-center py-20">
         <h2 className="text-4xl pt-20 font-bold text-center text-[#a0522d] mb-12">Chi Siamo</h2>
         <p className="text-lg text-white-700">
           Siamo un team di professionisti appassionati, uniti dalla volontà di innovare e creare esperienze
@@ -16,16 +16,16 @@ export default function TeamPage() {
 
       {/* Team Section */}
 
-      <TeamComponent />
+      <TeamMembersComponent />
 
       {/* projects */}
-      <div className="pb-30 pt-20 px-10">
+      <div className="py-20 pt-40">
         <h2 className="text-4xl font-semibold text-center mb-12 text-[#a0522d]">I Nostri Progetti</h2>
         <p className="text-center">tante belle cose</p>
       </div>
 
       {/* mission and values */}
-      <div className="flex flex-col pb-30 md:flex-row gap-10 text-center">
+      <div className="flex flex-col py-20 md:flex-row gap-10 text-center">
         {/* Mission Section */}
         <div className="flex-1 p-6">
           <h3 className="text-3xl font-bold text-[#a0522d] mb-4">Missione</h3>
@@ -48,7 +48,7 @@ export default function TeamPage() {
       </div>
 
       {/* Values Section */}
-      <div className="max-w-4xl pb-35 mx-auto text-center mt-12">
+      <div className="max-w-4xl py-20 mx-auto text-center mt-12">
         <h3 className="text-3xl font-semibold text-[#a0522d] mb-6">I Nostri Valori</h3>
         <ul className="list-disc text-lg text-white-700 space-y-4">
           <ul>Innovazione continua</ul>

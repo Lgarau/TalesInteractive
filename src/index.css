@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-img {
-    width: 100%
-}
+/* #hero-img {
+    object-position: 0px 1%;
+} */
+
+
 
 main,
 header,
@@ -12,7 +14,7 @@ footer {
 }
 
 section {
-    max-width: 1900px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 30px
 }
@@ -35,6 +37,8 @@ i {
     width: 600px !important;
     height: auto !important;
 }
+
+
 
 
 

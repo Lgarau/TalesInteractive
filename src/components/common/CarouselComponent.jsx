@@ -4,7 +4,7 @@ import CarouselContentComponent from "../unique/CarouselContent";
 export default function CarouselComponent({ }) {
 
     return (
-        <div className="overflow-x-scroll" >
+        <div className="overflow-x-scroll my-20" >
             <div className="flex w-610">
                 {carouselPost.map((post) => {
                     return <CarouselContentComponent key={post.id} title={post.title} content={post.content} image={post.img} />

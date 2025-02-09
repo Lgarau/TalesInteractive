@@ -1,7 +1,7 @@
 
 import teamMembers from "../../data/team-members";
 import TeamList from "../unique/TeamList";
-export default function TeamComponent({ }) {
+export default function TeamMembersComponent({ }) {
 
     return (
         <div className="overflow-x-scroll" >
