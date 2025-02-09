@@ -1,8 +1,8 @@
 export default function ContactPage() {
     return (
-        <div>
+        <section>
 
             <h1>ContactPage</h1>
-        </div>
+        </section>
     );
 }

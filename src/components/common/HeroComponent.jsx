@@ -10,7 +10,7 @@ export default function HeroComponent() {
     <div className="h-150 bg-none relative flex items-center justify-center text-center relative text-white">
 
 
-      <img src={imgPH} alt="Game-Frame" className="h-full z-900 w-full bg-none object-contain" />
+      <img src={imgPH} alt="Game-Frame" className="h-full z-900 w-full bg-none object-cover" />
 
 
       <h1 className="absolute mb-130 w-100 px-6 py-3 z-1000 text-4xl text-black ">Super Agnesia Bross</h1>

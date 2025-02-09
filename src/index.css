@@ -11,6 +11,12 @@ footer {
 
 }
 
+section {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 30px
+}
+
 i {
     font-size: 500%;
     color: #a0522d;

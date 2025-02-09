@@ -1,6 +1,6 @@
 
 import teamMembers from "../../data/team-members";
-import TeamListComponent from "../common/TeamListComponent";
+import TeamList from "../unique/TeamList";
 export default function TeamComponent({ }) {
 
     return (
@@ -8,7 +8,7 @@ export default function TeamComponent({ }) {
             <div className="flex gap-12 w-1600 my-30 h-auto flex-nowrap text-center">
 
                 {teamMembers.map((member) => {
-                    return <TeamListComponent key={member.id} name={member.name} surname={member.surname} role={member.role} image={member.img} />
+                    return <TeamList key={member.id} name={member.name} surname={member.surname} role={member.role} image={member.img} />
 
                 })}
             </div>

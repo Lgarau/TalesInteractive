@@ -2,7 +2,7 @@
 import TeamComponent from "../unique/TeamComponent";
 export default function TeamPage() {
   return (
-    <div className="px-10">
+    <section>
 
       {/* About Us Section */}
       <div className="max-w-4xl mx-auto text-center pt-30 pb-45">
@@ -56,6 +56,6 @@ export default function TeamPage() {
           <ul>Impatto positivo nella comunità</ul>
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
