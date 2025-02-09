@@ -2,10 +2,11 @@
 import TeamComponent from "../unique/TeamComponent";
 export default function TeamPage() {
   return (
-    <div className="py-10 px-10 bg-black-100">
+    <div className=" px-10
+    ">
 
       {/* About Us Section */}
-      <div className="max-w-4xl mx-auto text-center mb-12">
+      <div className="max-w-4xl mx-auto text-center pt-30 pb-45">
         <h2 className="text-4xl pt-20 font-bold text-center text-[#a0522d] mb-12">Chi Siamo</h2>
         <p className="text-lg text-white-700">
           Siamo un team di professionisti appassionati, uniti dalla volontà di innovare e creare esperienze
@@ -19,15 +20,15 @@ export default function TeamPage() {
       <TeamComponent />
 
       {/* projects */}
-      <div className="my-30 px-10 bg-black-100">
+      <div className="pb-30 pt-20 px-10">
         <h2 className="text-4xl font-semibold text-center mb-12 text-[#a0522d]">I Nostri Progetti</h2>
         <p className="text-center">tante belle cose</p>
       </div>
 
       {/* mission and values */}
-      <div className="my-30 flex flex-col my-30 md:flex-row gap-10 text-center">
+      <div className="flex flex-col pb-30 md:flex-row gap-10 text-center">
         {/* Mission Section */}
-        <div className="flex-1 p-6 rounded-lg">
+        <div className="flex-1 p-6">
           <h3 className="text-3xl font-bold text-[#a0522d] mb-4">Missione</h3>
           <p className="text-lg text-white-700">
             La nostra missione è creare esperienze interattive che uniscano la
@@ -37,7 +38,7 @@ export default function TeamPage() {
         </div>
 
         {/* Vision Section */}
-        <div className="flex-1 p-6 rounded-lg">
+        <div className="flex-1 p-6">
           <h3 className="text-3xl font-bold text-[#a0522d] mb-4">Visione</h3>
           <p className="text-lg text-white-700">
             La nostra visione è quella di offrire esperienze uniche che spingano i limiti della
@@ -48,7 +49,7 @@ export default function TeamPage() {
       </div>
 
       {/* Values Section */}
-      <div className="max-w-4xl my-30 mx-auto text-center mt-12">
+      <div className="max-w-4xl pb-35 mx-auto text-center mt-12">
         <h3 className="text-3xl font-semibold text-[#a0522d] mb-6">I Nostri Valori</h3>
         <ul className="list-disc text-lg text-white-700 space-y-4">
           <ul>Innovazione continua</ul>

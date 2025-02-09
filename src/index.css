@@ -21,10 +21,16 @@ i {
     margin: 0;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 .carousel.img {
     width: 600px !important;
     height: auto !important;
 }
+
+
 
 
 

@@ -4,7 +4,7 @@ import HomeContentComponent from "../common/HomeContentComponent";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen text-white pb-30">
 
       <HeroComponent />
 
