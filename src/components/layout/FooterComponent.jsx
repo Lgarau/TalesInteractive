@@ -1,4 +1,4 @@
-import talInt from "../../assets/bianco-largo.png";
+import talInt from "../../assets/bianco.svg";
 export default function FooterComponent() {
     return (
         <footer className="flex p-10 place-content-around item-center bg-black text-white text-center">
