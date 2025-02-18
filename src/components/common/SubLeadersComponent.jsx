@@ -1,7 +1,7 @@
 
-import teamMembers from "../../data/team-members";
-export default function TeamMembersComponent({ }) {
-    function TeamMember({ name, n, surname, role, image }) {
+import subTeamMembers from "../../data/sub-leader-members";
+export default function SubLeadersComponent({ }) {
+    function SubLeaderMembers({ name, n, surname, role, image }) {
 
         return (
             <div className="mx-auto w-90 p-8 justify-center">
@@ -11,6 +11,7 @@ export default function TeamMembersComponent({ }) {
                     <h3 className="block my-4 text-4xl font-semibold text-[#a0522d] mb-2">{name} {surname}</h3>
                     <p className="text-3xl my-3 text-gray-700">{role}</p>
                 </div>
+                <p>facebook-instagram-twitter</p>
             </div>
         );
     }
@@ -19,8 +20,8 @@ export default function TeamMembersComponent({ }) {
 
         <div className="flex member-row gap-12 my-30 h-auto flex-wrap text-center">
 
-            {teamMembers.map((member) => {
-                return <TeamMember key={member.id} n={member.id} name={member.name} surname={member.surname} role={member.role} image={member.img} />
+            {subTeamMembers.map((member) => {
+                return <SubLeaderMembers key={member.id} n={member.id} name={member.name} surname={member.surname} role={member.role} image={member.img} />
 
             })}
         </div>

@@ -1,8 +1,9 @@
 import talInt from "../../assets/bianco.svg";
+import teamMembers from "../../data/team-members";
 export default function FooterComponent() {
     return (
         <footer className="flex p-10 place-content-around item-center bg-black text-white text-center">
-            <img className=" max-w-50" src={talInt} alt="" />
+            <img className="border-e-white max-w-50" src={talInt} alt="" />
             <h1 className="inline-block my-auto text-white">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora ad eligendi dolorum, ratione corrupti sapiente!  </h1>
         </footer>
     );
