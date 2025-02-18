@@ -22,10 +22,10 @@ export default function FooterComponent() {
             <div className="my-auto">
                 <h1 className="inline-block my-auto text-white pb-3">LINK UTILI</h1>
                 <div className="flex flex-col items-start">
-                    <Link>Home</Link>
-                    <Link>Progetti</Link>
-                    <Link>Il Team</Link>
-                    <Link>Contatti</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/progetti">Progetti</Link>
+                    <Link to="/team">Il Team</Link>
+                    <Link to="/contatti">Contatti</Link>
                 </div>
             </div>
             <div className="my-auto">
