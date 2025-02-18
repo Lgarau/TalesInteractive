@@ -34,7 +34,11 @@ export default function FooterComponent() {
                     <p>Sassari - ITALIA</p>
                     <p>Via Attillio Defenu, 07100</p>
                     <p>info@talesinteractive.it</p>
-                    <p>Facebook-Instagram-Twitter</p>
+                    <div>
+                        <a href=""><i class="member-social-footer fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="member-social-footer fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="member-social-footer fa-brands fa-square-x-twitter"></i></a>
+                    </div>
                 </div>
             </div>
         </footer>
