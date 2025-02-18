@@ -8,7 +8,7 @@ export default function FooterComponent() {
 
 
 
-            <div className="px-5 border-s border-e-white flex flex-col justify-around items-center">
+            <div className="px-5 border-s border-e-white flex flex-col justify-evenly items-center">
                 <div>
                     <p>Tutti i diritti riservati</p>
                     <p>P.IVA___________</p>
@@ -23,7 +23,7 @@ export default function FooterComponent() {
                 <h1 className="inline-block my-auto text-white pb-3">LINK UTILI</h1>
                 <div className="flex flex-col items-start">
                     <Link>Home</Link>
-                    <Link>progetti</Link>
+                    <Link>Progetti</Link>
                     <Link>Il Team</Link>
                     <Link>Contatti</Link>
                 </div>
