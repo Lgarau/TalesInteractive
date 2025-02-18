@@ -29,7 +29,7 @@ export default function FooterComponent() {
                 </div>
             </div>
             <div className="my-auto">
-                <h1 className="inline-block my-auto text-white pb-3">LINK UTILI</h1>
+                <h1 className="inline-block my-auto text-white pb-3">CONTATTI</h1>
                 <div className="flex flex-col items-start">
                     <p>Sassari - ITALIA</p>
                     <p>Via Attillio Defenu, 07100</p>
