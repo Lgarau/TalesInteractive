@@ -6,7 +6,7 @@ export default function DefaultLayout() {
     return (
         <>
             <HeaderComponent />
-            <main className="min-h-screen  text-white pb-30">
+            <main className="min-h-screen  text-white pb-30 px-5">
 
                 <Outlet />
             </main>

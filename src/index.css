@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
-/* #hero-img {
-    object-position: 0px 1%;
-} */
+/* Palette principale:
+marrone #a0522d
+limone sbiadito #f5f5dc
+grigio blu #778899
 
+Palette secondarie:
+giallo ocra #daa520
+terracotta chiara #cd7f32 */
 
 
 main,
@@ -64,9 +68,11 @@ i {
     object-fit: cover;
 }
 
-/* #a0522d */
-
 
 .octagon {
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.project-social {
+    font-size: 150%;
 }

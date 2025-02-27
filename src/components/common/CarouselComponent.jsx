@@ -16,7 +16,7 @@ export default function CarouselComponent({ }) {
     }
 
     return (
-        <div className="overflow-x-scroll my-20" >
+        <div className="overflow-x-scroll my-20 hidden" >
             <div className="flex w-610">
                 {carouselPost.map((post) => {
                     return <CarouselContent key={post.id} title={post.title} content={post.content} image={post.img} />
