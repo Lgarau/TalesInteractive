@@ -5,7 +5,7 @@ export default function TeamMembersComponent({ }) {
 
         return (
             <div className="mx-auto w-90 p-8 justify-center">
-                <img className="mx-auto max-w-60 p-5 rounded-full" src={image} alt="" />
+                <img className="mx-auto max-w-70 p-5 octagon" src={image} alt="" />
 
                 <div className=" p-5 justify-center">
                     <h3 className="block my-4 text-4xl font-semibold text-[#a0522d] mb-2">{name} {surname}</h3>

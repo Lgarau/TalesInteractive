@@ -1,5 +1,4 @@
 
-import TeamMembersComponent from "../common/TeamMembersComponent";
 import SubLeadersComponent from "../common/SubLeadersComponent";
 export default function TeamPage() {
   return (
@@ -9,18 +8,18 @@ export default function TeamPage() {
       <div className="max-w-4xl mx-auto text-center py-20">
         <div className=" flex">
           <div className="w-90  justify-center">
-            <img className="mx-auto max-w-80 p-5 rounded-full" src="https://placehold.co/600x600" alt="" />
+          <img className="mx-auto max-w-90 p-5 octagon" src="https://placehold.co/600x600" alt="" />
 
             <div className="justify-center">
               <h3 className="block my-4 text-4xl font-semibold text-[#a0522d] mb-2">Daniele Scano</h3>
-              <p className="text-3xl my-3 text-gray-700">Fondatore</p>
+              <p className="text-3xl my-3 text-white">Fondatore</p>
               <a href=""><i class="member-social fa-brands fa-facebook"></i></a>
               <a href=""><i class="member-social fa-brands fa-square-instagram"></i></a>
               <a href=""><i class="member-social fa-brands fa-square-x-twitter"></i></a>
             </div>
           </div>
 
-
+        
           <p className="text-lg text-left flex w-150 items-center text-white-700 ml-10">
             Siamo un team di professionisti appassionati, uniti dalla volontà di innovare e creare esperienze
             coinvolgenti. Con anni di esperienza e una forte determinazione, siamo impegnati a realizzare progetti che
@@ -38,7 +37,7 @@ export default function TeamPage() {
       <h2 className="text-4xl pt-20 font-bold text-center text-[#a0522d] mb-12">Il Nostro Team</h2>
 
       <SubLeadersComponent />
-      <TeamMembersComponent />
+      
     </section>
   );
 }

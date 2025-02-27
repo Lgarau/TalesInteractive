@@ -8,14 +8,14 @@ import ContactPage from './components/pages/ContactPage';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-black text-white">
+      <div className="min-h-screen bg-black">
         <Routes>
           <Route element={<DefaultLayout />}>
-            <Route path='tales-interactive' element={<HomePage />} />
-            <Route path='/' element={<HomePage />} />
-            <Route path="/team" element={<TeamPage />} />
-            <Route path="/progetti" element={<ProjectsPage />} />
-            <Route path="/contatti" element={<ContactPage />} />
+            <Route path='/TalesInteractive/home' element={<HomePage />} />
+            <Route path='/TalesInteractive/home' element={<HomePage />} />
+            <Route path="/TalesInteractive/team" element={<TeamPage />} />
+            <Route path="/TalesInteractive/progetti" element={<ProjectsPage />} />
+            <Route path="/TalesInteractive/contatti" element={<ContactPage />} />
           </Route>
         </Routes>
       </div>
