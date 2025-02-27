@@ -1,5 +1,6 @@
 import carouselPost from "../../data/carousel-posts";
 
+
 export default function CarouselComponent({ }) {
     function CarouselContent({ title, content, image }) {
 

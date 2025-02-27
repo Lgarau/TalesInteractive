@@ -6,11 +6,15 @@
 
 
 
-main,
-header,
-footer {
+body {
     background-image: linear-gradient(to left, #a0512d21, black 80%, #a0512d21);
 
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 120%;
 }
 
 section {
@@ -44,9 +48,19 @@ i {
 }
 
 .member-social-footer {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-right: 10px;
     color: white;
+}
+
+#agnesia-info-wrapper>div {
+    max-width: 400px;
+}
+
+.project-concept-art {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
 }
 
 /* #a0522d */
