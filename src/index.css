@@ -6,7 +6,9 @@
 
 
 
-body {
+main,
+header,
+footer {
     background-image: linear-gradient(to left, #a0512d21, black 80%, #a0512d21);
 
 }
@@ -64,3 +66,8 @@ i {
 }
 
 /* #a0522d */
+
+
+.octagon {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
