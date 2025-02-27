@@ -11,7 +11,7 @@ function App() {
       <div className="min-h-screen bg-black">
         <Routes>
           <Route element={<DefaultLayout />}>
-            <Route path='/TalesInteractive/home' element={<HomePage />} />
+            <Route path='/TalesInteractive' element={<HomePage />} />
             <Route path='/TalesInteractive/home' element={<HomePage />} />
             <Route path="/TalesInteractive/team" element={<TeamPage />} />
             <Route path="/TalesInteractive/progetti" element={<ProjectsPage />} />
