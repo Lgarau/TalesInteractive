@@ -1,34 +1,27 @@
+import head from "../assets/head.jpg"
+import guardia from "../assets/guardia.jpg"
+import logo from "../assets/marrone-logo.svg";
+
 const carouselPosts = [
     {
         id: 1,
-        img: "https://placehold.co/600x400",
-        title: "NUOVO GIOCO IN ARRIVO",
-        content: "Siamo entusiasti di annunciare il nostro nuovo gioco, 'Echoes of Eternity', un'avventura di ruolo epica con una storia unica e personaggi memorabili."
+        img: head,
+        title: "STILE DEL GIOCO UNICO",
+        content: "Il nostro stile grafico é unico e riconoscibile, ispirato a titoli come la serie animata Arcane, Disco Elysium e Syberia."
     },
     {
         id: 2,
-        img: "https://placehold.co/600x400",
-        title: "IL NOSTRO TEAM",
-        content: "Il nostro team di sviluppatori è composto da appassionati di giochi che lavorano insieme per creare esperienze di gioco uniche e coinvolgenti."
+        img: logo,
+        title: `LA "T" DI TALES INTERACTIVE`,
+        content: "La nostra “T” rappresenta un arco, uno dei primi strumenti rappresentati nelle pitture rupestri: simboleggia il bisogno ancestrale dell’uomo di raccontare le proprie storie."
     },
     {
         id: 3,
-        img: "https://placehold.co/600x400",
-        title: "NOTIZIE",
-        content: "Il nostro team di sviluppo è al lavoro su un nuovo progetto, 'Starlight Odyssey', un gioco di esplorazione spaziale con una grafica mozzafiato e una storia emozionante."
+        img: guardia,
+        title: "RICERCA STORICA APPROFONDITA",
+        content: "Ogni dettaglio è frutto di un’attenta ricerca storica. Tutto è ricostruito con rigore per offrire un’esperienza autentica e immersiva.."
     },
-    {
-        id: 4,
-        img: "https://placehold.co/600x400",
-        title: "TECNOLOGIA",
-        content: "Utilizziamo le ultime tecnologie per creare giochi che siano non solo divertenti, ma anche visivamente spettacolari e tecnicamente avanzati."
-    },
-    {
-        id: 5,
-        img: "https://placehold.co/600x400",
-        title: "COMUNITÀ",
-        content: "La nostra comunità di giocatori è al centro di tutto ciò che facciamo. Siamo sempre alla ricerca di modi per coinvolgere e premiare i nostri fan più fedeli."
-    },
+
 ];
 
 export default carouselPosts

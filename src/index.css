@@ -42,10 +42,35 @@ i {
     text-decoration: underline;
 }
 
-.carousel.img {
-    width: 600px !important;
-    height: auto !important;
+
+.carousel-scroll {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%
 }
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-card {
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 50px;
+    max-width: 553px;
+}
+
+
+
+.carousel-img {
+    object-fit: cover;
+    background-color: black;
+    border-radius: 10%;
+    aspect-ratio: 10 / 9;
+}
+
 
 .member-social {
     font-size: 2em;

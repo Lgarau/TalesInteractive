@@ -5,7 +5,7 @@ export default function CarouselComponent({ }) {
     function CarouselContent({ title, content, image }) {
 
         return (
-            <div className="p-8 w-500 shadow-md text-center">
+            <div className="carousel-card p-8 w-500 shadow-md text-center">
                 <img src={image} className="carousel-img fa-solid fa-user-large h-auto rounded-md mx-auto mb-4 " alt="carousel-post-img" />
                 <p className="text-3xl font-bold text-center my-6">{title}</p>
                 <p className="text-lg text-white-700">
@@ -16,8 +16,8 @@ export default function CarouselComponent({ }) {
     }
 
     return (
-        <div className="overflow-x-scroll my-20 hidden" >
-            <div className="flex w-610">
+        <div className="carousel overflow-x-scroll my-20 " >
+            <div className="carousel-scroll ">
                 {carouselPost.map((post) => {
                     return <CarouselContent key={post.id} title={post.title} content={post.content} image={post.img} />
                 })}
