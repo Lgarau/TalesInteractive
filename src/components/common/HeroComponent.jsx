@@ -29,7 +29,7 @@ export default function HeroComponent({ place, scrollRef }) {
       <img src={imgPH} alt="Game-Frame" id="hero-img" className=" h-150 w-full mx-20 bg-none object-cover rounded-3xl" />
 
       <h1 className="absolute mb-135 w-100 px-6 py-3 text-6xl text-black ">Agnesia</h1>
-      <p className="absolute mb-105 w-100 px-6 py-3 text-black">Sassari, 1349. <br /> Una giovane donna...</p>
+      <p className="absolute text-lg mb-103 w-100 px-6 py-3 text-black">"Sassari, 1349. La paura separa i vivi,<br /> l’odio decide chi sopravvive."... </p>
 
       <Link
         to="/progetti"

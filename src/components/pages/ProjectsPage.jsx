@@ -33,15 +33,16 @@ export default function ProjectsPage() {
           <div>
             <img className="project-concept-art rounded-xl" src={agnese} alt="agnesia-concept-art" />
             <h3>
-              Matteo e Agnese
+              MATTEO E AGNESE
             </h3>
           </div>
-          <div>
+          <div id="agnesia-description">
 
             <p ref={scrollRef} className="text-xl text-left">
               Sassari, 1349. Il flagello piú terribile della storia continua a imperversare, alimentando diffidenza e paura fra la popolazione sassarese.
               <br /><br /><br />
               Mentre la Corona d’Aragona stringe la sua presa sulla città, i sostenitori dei Doria e gli indipendentisti complottano per riappropriarsi del potere perduto.
+              <br />
               Per salvare il fratello ammalato, Agnese sarà costretta ad affrontare le sue piú grandi paure, svelando verità terribili sul suo stesso passato.
               <br /><br /><br />
               Una storia che intreccia amore, odio e compassione, dove ogni scelta potrebbe determinare il tuo destino e quello di un’intera città ormai stremata e sull’orlo del baratro.
@@ -50,7 +51,7 @@ export default function ProjectsPage() {
           <div>
             <img className="project-concept-art rounded-xl" src={vicario} alt="vicario-concept-art" />
             <h3>
-              Il veguer Guerau
+              IL VEGUER GUERAU DE TORRENTS
             </h3>
           </div>
 
