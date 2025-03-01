@@ -2,7 +2,7 @@ import HeroComponent from "../common/HeroComponent";
 import agnesiaInfo from "../../data/agnesia-info";
 import { useRef } from "react";
 import agnese from "../../assets/agnese-e-matteo-bw-concept-art.jpg"
-import vicario from "../../assets/vicario-bw-concept-art.jpg"
+import vicario from "../../assets/vicario-bw-concept-art1.jpg"
 export default function ProjectsPage() {
   const scrollRef = useRef(null);
   function ProjectInfoComponent({ icon, content }) {
@@ -37,28 +37,14 @@ export default function ProjectsPage() {
             </h3>
           </div>
           <div>
-            <h2 ref={scrollRef} className="text-xl">Sinossi <br /> <br /></h2>
-            <p id="scroll-trigger" className="text-lg text-left">
-              1349. Durante l’epidemia di peste più
-              grave della storia, le autorità aragonesi cercano
-              di mantenere l’ordine, ma la paura, la
-              superstizione e le lotte di potere seminano il
-              caos tra la popolazione.
 
-              In questo scenario cupo, Agnese Tola, una
-              giovane domestica, lotta contro il tempo per
-              salvare il suo fratellino Matteo, colpito dal
-              morbo. Isolata dalla società e senza risorse, è
-              costretta a muoversi tra ambigui uomini di
-              chiesa, mercanti senza scrupoli e funzionari
-              aragonesi, mentre cerca disperatamente una
-              cura.
-
-              Agnese e Matteo Tola
-
-              Ma il pericolo più grande non è solo la malattia:
-              in una città consumata dalla paura e dalla
-              violenza, ogni decisione potrebbe essere fatale.
+            <p ref={scrollRef} className="text-xl text-left">
+              Sassari, 1349. Il flagello piú terribile della storia continua a imperversare, alimentando diffidenza e paura fra la popolazione sassarese.
+              <br /><br /><br />
+              Mentre la Corona d’Aragona stringe la sua presa sulla città, i sostenitori dei Doria e gli indipendentisti complottano per riappropriarsi del potere perduto.
+              Per salvare il fratello ammalato, Agnese sarà costretta ad affrontare le sue piú grandi paure, svelando verità terribili sul suo stesso passato.
+              <br /><br /><br />
+              Una storia che intreccia amore, odio e compassione, dove ogni scelta potrebbe determinare il tuo destino e quello di un’intera città ormai stremata e sull’orlo del baratro.
             </p>
           </div>
           <div>

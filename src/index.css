@@ -38,6 +38,12 @@ i {
     margin: 0;
 }
 
+
+#hero-img {
+    object-position: 50% 50%;
+}
+
+
 .active {
     text-decoration: underline;
 }
@@ -59,7 +65,7 @@ i {
     text-align: center;
     margin: 50px 0;
     padding: 0 50px;
-    max-width: 553px;
+    max-width: 400px;
 }
 
 
@@ -71,10 +77,16 @@ i {
     aspect-ratio: 10 / 9;
 }
 
+.menber-social-wrapper {
+
+    margin-top: auto;
+}
+
 
 .member-social {
     font-size: 2em;
     margin: 0 10px;
+    color: white;
 }
 
 .member-social-footer {

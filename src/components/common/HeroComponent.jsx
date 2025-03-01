@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import imgPH from "../../assets/Castello_Aragonese_di_Sassari.png";
+import imgPH from "../../assets/castello-nobell.jpg";
 import { useRef } from "react";
 
 export default function HeroComponent({ place, scrollRef }) {
@@ -8,8 +8,8 @@ export default function HeroComponent({ place, scrollRef }) {
   if (place === "home") {
     link =
       <Link
-        to="/progetti"
-        className="absolute mt-90 mr-0 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
+        to="/TalesInteractive/progetti"
+        className="absolute mt-50 mr-0 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
         Scopri di più
       </Link>
   } else if (place === "projects") {
@@ -19,24 +19,21 @@ export default function HeroComponent({ place, scrollRef }) {
         onClick={() => {
           scrollRef.current?.scrollIntoView({ behavior: "smooth" })
         }}
-        className="absolute mt-90 mr-0 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
+        className="absolute mt-50 mr-0 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
         Scopri di più
       </button>
   }
 
   return (
-    <div className="h-280 bg-none relative flex items-center justify-center text-center text-white rounded-3xl z-[10]">
-      <img src={imgPH} alt="Game-Frame" id="hero-img" className="h-full w-full mx-20 bg-none object-cover rounded-3xl" />
+    <div className=" bg-none relative flex items-center justify-center text-center text-white rounded-3xl z-[10]">
+      <img src={imgPH} alt="Game-Frame" id="hero-img" className=" h-150 w-full mx-20 bg-none object-cover rounded-3xl" />
 
-      <h1 className="absolute mb-90 w-100 px-6 py-3 text-4xl text-black ">Super Agnesia Bross</h1>
-      <p className="absolute mb-60 w-100 px-6 py-3 text-black">Sassari, 1349. <br /> Una giovane donna...</p>
+      <h1 className="absolute mb-135 w-100 px-6 py-3 text-6xl text-black ">Agnesia</h1>
+      <p className="absolute mb-105 w-100 px-6 py-3 text-black">Sassari, 1349. <br /> Una giovane donna...</p>
 
-
-      <h1 className="absolute mb-90 w-100 px-6 py-3 z-1000 text-4xl text-black ">  Super Agnesia Bross</h1>
-      <p className="absolute mb-60 w-100 px-6 py-3 z-1000 text-black">Sassari, 1349. <br /> Una giovane donna... </p>
       <Link
         to="/progetti"
-        className="hidden absolute mt-90 ml-50 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
+        className="hidden absolute mt-50 ml-50 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
         Vedi Trailer
       </Link>
       {link}

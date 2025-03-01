@@ -1,5 +1,6 @@
 
-import SubLeadersComponent from "../common/SubLeadersComponent";
+import MembersComponent from "../common/MembersComponent";
+import daniele from "../../assets/member-img/daniele.jpg"
 export default function TeamPage() {
   return (
     <section>
@@ -8,18 +9,18 @@ export default function TeamPage() {
       <div className="max-w-4xl mx-auto text-center py-20">
         <div className=" flex">
           <div className="w-90  justify-center">
-          <img className="mx-auto max-w-90 p-5 octagon" src="https://placehold.co/600x600" alt="" />
+            <img className="mx-auto max-w-90 p-5 octagon" src={daniele} alt="" />
 
             <div className="justify-center">
               <h3 className="block my-4 text-4xl font-semibold text-[#a0522d] mb-2">Daniele Scano</h3>
               <p className="text-3xl my-3 text-white">Fondatore</p>
-              <a href=""><i class="member-social fa-brands fa-facebook"></i></a>
+              <a href=""><i class="member-social fa-brands fa-square-facebook"></i></a>
               <a href=""><i class="member-social fa-brands fa-square-instagram"></i></a>
-              <a href=""><i class="member-social fa-brands fa-square-x-twitter"></i></a>
+              <a href=""><i class="member-social fa-brands fa-linkedin"></i></a>
             </div>
           </div>
 
-        
+
           <p className="text-lg text-left flex w-150 items-center text-white-700 ml-10">
             Siamo un team di professionisti appassionati, uniti dalla volontà di innovare e creare esperienze
             coinvolgenti. Con anni di esperienza e una forte determinazione, siamo impegnati a realizzare progetti che
@@ -36,8 +37,8 @@ export default function TeamPage() {
       {/* Team Section */}
       <h2 className="text-4xl pt-20 font-bold text-center text-[#a0522d] mb-12">Il Nostro Team</h2>
 
-      <SubLeadersComponent />
-      
-    </section>
+      <MembersComponent />
+
+    </section >
   );
 }

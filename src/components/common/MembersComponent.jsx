@@ -1,6 +1,6 @@
 
-import subTeamMembers from "../../data/sub-leader-members";
-export default function SubLeadersComponent({ }) {
+import TeamMembers from "../../data/team-members";
+export default function MembersComponent({ }) {
     function SubLeaderMembers({ name, n, surname, role, image }) {
 
         return (
@@ -10,9 +10,11 @@ export default function SubLeadersComponent({ }) {
                 <div className=" p-5 justify-center">
                     <h3 className="block my-4 text-4xl font-semibold text-[#a0522d] mb-2">{name} {surname}</h3>
                     <p className="text-3xl my-3 text-white">{role}</p>
-                    <a href=""><i class="member-social fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="member-social fa-brands fa-square-instagram"></i></a>
-                    <a href=""><i class="member-social fa-brands fa-square-x-twitter"></i></a>
+                    <div className="menber-social-wrapper">
+                        <a href=""><i class="member-social fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="member-social fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="member-social fa-brands fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
         );
@@ -22,7 +24,7 @@ export default function SubLeadersComponent({ }) {
 
         <div className="flex member-row gap-12 my-30 h-auto flex-wrap text-center">
 
-            {subTeamMembers.map((member) => {
+            {TeamMembers.map((member) => {
                 return <SubLeaderMembers key={member.id} n={member.id} name={member.name} surname={member.surname} role={member.role} image={member.img} />
 
             })}
