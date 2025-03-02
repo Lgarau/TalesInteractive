@@ -4,8 +4,8 @@ export default function MembersComponent({ }) {
     function SubLeaderMembers({ name, n, surname, role, image }) {
 
         return (
-            <div className="my-10 w-90  justify-center">
-                <img className="mx-auto max-w-70 p-5 octagon" src={image} alt="" />
+            <div className="my-10 w-80  justify-center">
+                <img className="mx-auto max-w-70 oblect-contain p-5 octagon" src={image} alt="" />
 
                 <div className="flex flex-col p-5 justify-between">
                     <h3 className="block  text-3xl font-semibold text-[#a0522d] mb-2">{name} {surname}</h3>

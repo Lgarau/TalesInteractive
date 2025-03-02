@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/marrone-logo.svg";
+import Logo from "../../assets/marrone-logo-smaller-padding.png";
 import { useState, useEffect } from "react";
 
 export default function HeaderComponent() {
@@ -20,13 +20,13 @@ export default function HeaderComponent() {
     return (
         <header className="relative z-[100]">
             {/* Navbar desktop */}
-            <nav className="hidden md:flex text-3xl justify-between items-center max-w-screen-2xl mx-auto p-5 px-10 space-x-10 text-[#a0522d] font-bold">
+            <nav className="hidden md:flex text-3xl justify-between items-center max-w-screen-2xl mx-auto p-5 px-10 space-x-10 text-[#a0522d] font-bold flex gap-7">
                 <NavLink to="/TalesInteractive/home" className={({ isActive }) => `my-nav text-[#a0522d] ${isActive ? "text-white font-bold" : ""}`}>Home</NavLink>
                 <NavLink to="/TalesInteractive/progetti" className={({ isActive }) => `my-nav text-[#a0522d] ${isActive ? "text-white font-bold" : ""}`}>Progetti</NavLink>
 
                 {/* Logo centrale */}
                 <NavLink to="/TalesInteractive/home">
-                    <img src={Logo} alt="TalesInteractiveLogo" id="logo" className="max-h-50 pl-10 object-contain" />
+                    <img src={Logo} alt="TalesInteractiveLogo" id="logo" className="pl-10 max-h-50 object-contain" />
                 </NavLink>
 
                 <NavLink to="/TalesInteractive/team" className={({ isActive }) => `my-nav text-[#a0522d] ${isActive ? "text-white font-bold" : ""}`}>Team</NavLink>
