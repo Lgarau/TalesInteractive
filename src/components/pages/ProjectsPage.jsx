@@ -5,12 +5,12 @@ import agnese from "../../assets/agnese-e-matteo-bw-concept-art.jpg"
 import vicario from "../../assets/vicario-bw-concept-art1.jpg"
 export default function ProjectsPage() {
   const scrollRef = useRef(null);
-  function ProjectInfoComponent({ icon, content }) {
+  function ProjectInfoComponent({ icon, content, id }) {
 
 
     return (
 
-      <div className="w-100 text-center" >
+      <div className="w-80 text-center" >
         <i className={icon}></i>
         <div className="flex-1 p-6 rounded-lg max-w-150 ">
           <p className="text-lg text-white-700">
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
         <div className=" flex flex-wrap justify-center rounded-md gap-20 text-center my-20 column-3 pt-20">
           {
             agnesiaInfo.map((info) => {
-              return <ProjectInfoComponent icon={info.icon} content={info.content} />
+              return <ProjectInfoComponent key={info.id} icon={info.icon} content={info.content} />
             })
           }
         </div>
@@ -69,9 +69,9 @@ export default function ProjectsPage() {
           <h1>SEGUI I NOSTRI SOCIAL PER RIMANE AGGIORNATO</h1>
 
           <div className="flex mx-auto gap-10" >
-            <a href=""><i class="project-social fa-brands fa-square-facebook"></i></a>
-            <a href=""><i class="project-social fa-brands fa-square-instagram"></i></a>
-            <a href=""><i class="project-social fa-brands fa-linkedin"></i></a>
+            <a href=""><i className="project-social fa-brands fa-square-facebook"></i></a>
+            <a href=""><i className="project-social fa-brands fa-square-instagram"></i></a>
+            <a href=""><i className="project-social fa-brands fa-linkedin"></i></a>
           </div>
         </div>
 
