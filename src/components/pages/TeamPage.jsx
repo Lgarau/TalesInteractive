@@ -9,7 +9,7 @@ export default function TeamPage() {
       <div className="max-w-270 mx-auto text-center py-20">
         <div className=" flex flex-wrap gap-20 justify-center">
           <div className="w-100  justify-center">
-            <img className="mx-auto max-w-100 p-5 octagon" src={daniele} alt="" />
+            <img id="danimg" className="mx-auto p-5 octagon" src={daniele} alt="" />
 
             <div className="justify-center">
               <h3 className="block my-4 text-5xl font-semibold text-[#a0522d] mb-2">Daniele Scano</h3>

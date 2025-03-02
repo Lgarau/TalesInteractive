@@ -13,7 +13,7 @@ const homeinfo = [
     },
     {
         id: 3,
-        icon: 'fa-solid fa-flag',
+        icon: 'fa-solid fa-exclamation',
         title: "Missione",
         content: "Scrivere opere dalla forte componente  narrativa e artistica"
     },

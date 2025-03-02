@@ -33,13 +33,13 @@ export default function ContactPage() {
   }
 
   return (
-    <section className="max-w-4xl mx-auto px-10 py-20">
-      <h2 className="text-4xl pt-20 font-bold text-center text-[#a0522d] mb-12">Contattaci</h2>
-      <p className="text-2xl text-white-900 text-center mb-20">
+    <div>
+      <h2 className="text-4xl pt-20 font-bold text-center text-[#a0522d] mb-12">CONTATTACI</h2>
+      <p className="text-3xl text-white-900 text-center mb-20">
         Hai bisogno di scriverci? Compila il form!
       </p>
 
-      <form onSubmit={handleSubmit} className="bg-transparent shadow-lg rounded-xl p-12 space-y-12 w-auto mx-auto">
+      <form id="form" onSubmit={handleSubmit} className=" flex flex-col  bg-transparent shadow-lg rounded-xl px-50 py-15 space-y-12 w-auto mx-auto">
         <div className="grid grid-cols-1 gap-12">
           <input
             type="text"
@@ -65,7 +65,7 @@ export default function ContactPage() {
           value={formData.message}
           onChange={handleChange}
           placeholder="Messaggio"
-          className="border p-4 rounded-md w-full h-48 resize-none focus:ring-2 focus:outline-none"
+          className="border py-12 p-4 rounded-md w-full h-48 resize-none focus:ring-2 focus:outline-none"
           required
         />
         <div id="therms-and-conditions" ref={thermsAndConditionRef} className="hidden padding bg-black border rounded-4xl text-white p-10">
@@ -75,7 +75,7 @@ export default function ContactPage() {
           <p>TALES INTERACTIVE S.R.L.S., con sede in Via Attilio Deffenu 12, 07100, Sassari, si impegna a
             proteggere la privacy degli utenti che visitano il nostro sito web <a className="text-blue-600 dark:text-blue-500 hover:underline" href="">www.talesinteractive.it</a>. La presente
             informativa descrive come raccogliamo, utilizziamo e proteggiamo i dati personali forniti dagli utenti
-            tramite il nostro <strong>form di contatto.</strong></p><br /><br />
+            tramite il nostro <strong>form di contatto</strong></p><br /><br />
           <ol>
             {/* punto 1 */}
             <li>
@@ -142,13 +142,13 @@ export default function ContactPage() {
           <h1 className="text-xl"><strong>Contatti</strong></h1>
           <p>Per qualsiasi domanda relativa alla presente informativa sulla privacy, puoi contattarci all’indirizzo email: <strong>info@talesinteractive.it</strong></p>
         </div>
-        <div className="flex items-center">
+        <div className="flex  items-center">
           <input required id="link-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
           <label htmlFor="link-checkbox" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Accetto l' <button onClick={toggleTerms} href="#" className="text-blue-600 dark:text-blue-500 hover:underline">informativa sulla privacy</button>.</label>
         </div>
         <button
           type="submit"
-          className="bg-gradient-to-r from-[#a0522d] to-[#3d1f11] from-[10%] to-[90%] text-white px-8 py-8 rounded-md w-full hover:bg-[#8b4513] transition"
+          className="max-w-100 mx-auto bg-gradient-to-r from-[#a0522d] to-[#3d1f11] from-[10%] to-[90%] text-white text-2xl px-8 py-8  rounded-md w-full hover:bg-[#8b4513] transition"
         >
           Invia Messaggio
         </button>
@@ -157,37 +157,34 @@ export default function ContactPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 mt-30 text-center gap-20">
 
         <div>
-          <p className="text-3xl font-bold text-[#a0522d]">Hai bisogno di supporto tecnico?</p>
+          <p className="text-3xl  mb-5 font-bold text-[#a0522d]">Hai bisogno di supporto tecnico?</p>
           <p className="text-2xl text-white">support@talesinteractive.it</p>
         </div>
 
         <div>
-          <p className="text-3xl font-bold text-[#a0522d]">Vuoi lavorare con noi? Manda il tuo CV a</p>
+          <p className="text-3xl mb-5 font-bold text-[#a0522d]">Vuoi lavorare con noi? Manda il tuo CV</p>
           <p className="text-2xl text-white">careers@talesinteractive.it</p>
         </div>
       </div>
 
 
       {/* Social */}
-      <div className="mt-40 text-center space-y-12">
-        <h3 className=" text-2xl font-bold text-white mb-16">Seguici sui social per rimanere aggiornato!</h3>
-        <a href="#" className="text-[#a0522d] hover:text-[#8b4513] transition">
-          <i className="fab fa-facebook"></i>
-        </a>
 
-        <a href="#" className="text-[#a0522d] hover:text-[#8b4513] transition">
-          <i className="fab fa-instagram"></i>
-        </a>
+      <div id="contact-icons-wrapper" className="flex text-6xl max-w-100 justify-between mt-40  mx-auto" >
+        <a href="https://www.facebook.com/profile.php?id=61565965654373"><i className="project-social fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/tales.interactive/"><i className="project-social fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/tales-interactive/"><i className="project-social fa-brands fa-linkedin"></i></a>
       </div>
 
 
-      <div className="mt-40 text-center space-y-12">
-        <h3 className="text-3xl font-bold text-[#a0522d] mb-16">Informazioni</h3>
-        <p className="text-white">📍 Via Sassari, 123 - Sassari, Italia</p>
-        <p className="text-white">📧 support@talesinteractive.it</p>
-        <p className="text-white">📞 +39 0123 456 789</p>
+
+      <div className="mt-40 text-2xl text-center space-y-12">
+        <h3 className="text-4xl font-bold text-[#a0522d] mb-16">INFORMAZIONI</h3>
+        <p className="text-white">📍 <br />Via Attillio Defenu, 07100, Sassari - ITALIA</p>
+        <p className="text-white">📧<br />support@talesinteractive.it</p>
+        <p className="text-white">📞<br />+379 1005178</p>
       </div>
-    </section>
+    </div>
 
 
   );

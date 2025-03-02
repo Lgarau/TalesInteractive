@@ -11,7 +11,8 @@ terracotta chiara #cd7f32 */
 
 main,
 header,
-footer {
+footer,
+arrows {
     background-image: linear-gradient(to left, #a0512d21, black, #a0512d21);
 }
 
@@ -82,19 +83,15 @@ i {
     color: white;
 }
 
-#agnesia-info-wrapper>div {
-    max-width: 400px;
-    min-width: 300px
-}
+
+
 
 .project-concept-art {
-    width: 400px;
-    height: 600px;
     object-fit: cover;
 }
 
 .octagon {
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    border-radius: 100%;
 }
 
 .project-social {
@@ -136,26 +133,55 @@ footer {
         justify-content: center;
     }
 
+    #footer-copyright-wrapper {
+        padding-right: 26px
+    }
+
+    #footer-info-wrapper {
+        padding-left: 132px
+    }
+
     #footer-copyright-wrapper,
     #footer-info-wrapper {
         margin: 30px 0;
     }
 
-    #agnesia-description {
-        width: 500px !important;
+    #agnesia-info-wrapper {
+        flex-wrap: wrap;
+
     }
+
+    #agnesia-info-wrapper {
+        margin: 30px
+    }
+
 }
 
 
-@media (max-width: 527px) {
-
-    #footer-copyright-wrapper,
-    #footer-info-wrapper {
-        flex-direction: column;
-        gap: 50px
+@media (max-width: 580px) {
+    section {
+        max-width: 1800px;
+        margin: 0 auto;
     }
 
-    .footer-block {
+    #agnesia-info-wrapper {
+        margin: 30px 0
+    }
+
+    #form {
+        padding: 0 0
+    }
+
+    #footer-pages-links {
+        text-align: left;
+    }
+
+
+    #contact-icons-wrapper>a {
+        margin: 0 5px
+    }
+
+    form .footer-block {
         margin: 0;
         padding: 0;
         width: 216px;
@@ -164,9 +190,56 @@ footer {
     }
 
     #footer-block-2,
+    #footer-block-4 {
+
+        border-left: none;
+    }
+
+    #footer-block-2,
     #footer-block-3,
     #footer-block-4 {
+        padding-top: 40px;
         text-align: center;
         border-top: 3px solid white;
+
+    }
+
+    .octagon {
+        padding: 0
+    }
+
+
+    #footer-block-3 {
+        text-align: left;
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    #footer-copyright-wrapper,
+    #footer-info-wrapper {
+        flex-direction: column;
+        gap: 50px
+    }
+
+    #footer-copyright-wrapper {
+        padding: 0
+    }
+
+    #footer-info-wrapper {
+        padding: 0
+    }
+
+    #game-description {
+        display: none;
+    }
+
+    #game-title {
+        margin-bottom: 400px;
+    }
+}
+
+@media (max-width: 350px) {
+    #hamburger-logo {
+        display: none;
     }
 }

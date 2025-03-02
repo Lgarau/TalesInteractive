@@ -13,7 +13,7 @@ export default function ProjectsPage() {
       <div className="w-80 text-center" >
         <i className={icon}></i>
         <div className="flex-1 p-6 rounded-lg max-w-150 ">
-          <p className="text-lg text-white-700">
+          <p className="text-xl text-white-700">
             {content}
           </p>
         </div>
@@ -29,7 +29,7 @@ export default function ProjectsPage() {
       <HeroComponent place="projects" scrollRef={scrollRef} />
       <section>
 
-        <div id="agnesia-info-wrapper" className=" flex flex-wrap justify-center gap-20 text-center my-20 column-3">
+        <div id="agnesia-info-wrapper" className=" flex items justify-center gap-10 text-center my-20 column-3">
           <div>
             <img className="project-concept-art rounded-xl" src={agnese} alt="agnesia-concept-art" />
             <h3>
@@ -37,8 +37,8 @@ export default function ProjectsPage() {
             </h3>
           </div>
           <div id="agnesia-description">
-
-            <p ref={scrollRef} className="text-xl text-left">
+            <div id="scroll-trigger" ref={scrollRef}><br /></div>
+            <p className="text-md text-left">
               Sassari, 1349. Il flagello piú terribile della storia continua a imperversare, alimentando diffidenza e paura fra la popolazione sassarese.
               <br /><br /><br />
               Mentre la Corona d’Aragona stringe la sua presa sulla città, i sostenitori dei Doria e gli indipendentisti complottano per riappropriarsi del potere perduto.
@@ -56,7 +56,7 @@ export default function ProjectsPage() {
           </div>
 
         </div>
-        <div className=" flex flex-wrap justify-center rounded-md gap-20 text-center my-20 column-3 pt-20">
+        <div className=" flex flex-wrap justify-center rounded-md gap-20 text-center mt-20 column-3 pt-20">
           {
             agnesiaInfo.map((info) => {
               return <ProjectInfoComponent key={info.id} icon={info.icon} content={info.content} />
@@ -64,14 +64,14 @@ export default function ProjectsPage() {
           }
         </div>
 
-        <div className="flex color-#daa520 flex-col gap-10 text-center text-[#a0522d] text-5xl pt-20">
-          <h1>Altre novitá in arrivo...</h1>
-          <h1>SEGUI I NOSTRI SOCIAL PER RIMANE AGGIORNATO</h1>
+        <div className="flex color-#daa520 flex-col mt-20 gap-10 text-center text-[#a0522d] text-3xl">
+          <h1 className="text-xs"><i>Altre novitá in arrivo...</i></h1>
+          <h1>SEGUI I NOSTRI SOCIAL</h1>
 
           <div className="flex mx-auto gap-10" >
-            <a href=""><i className="project-social fa-brands fa-square-facebook"></i></a>
-            <a href=""><i className="project-social fa-brands fa-square-instagram"></i></a>
-            <a href=""><i className="project-social fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61565965654373"><i className="project-social fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/tales.interactive/"><i className="project-social fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/tales-interactive/"><i className="project-social fa-brands fa-linkedin"></i></a>
           </div>
         </div>
 

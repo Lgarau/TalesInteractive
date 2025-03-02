@@ -67,7 +67,7 @@ export default function HeaderComponent() {
                 </button>
 
                 {/* Logo sopra il menu */}
-                <img src={Logo} alt="TalesInteractiveLogo" className="w-40 mt-2" />
+                <img id="hamburger-logo" src={Logo} alt="TalesInteractiveLogo" className="w-40 mt-2" />
 
                 {/* Link del menu */}
                 <div className="flex flex-col items-center gap-10">
