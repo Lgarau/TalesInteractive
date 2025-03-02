@@ -9,19 +9,11 @@ Palette secondarie:
 giallo ocra #daa520
 terracotta chiara #cd7f32 */
 
-
 main,
 header,
 footer {
     background-image: linear-gradient(to left, #a0512d21, black, #a0512d21);
-
 }
-
-.hero-button {
-    background-color: linear-gradient(to left, #a0512d21, black, #a0512d21) !important;
-
-}
-
 
 section {
     max-width: 1800px;
@@ -39,16 +31,13 @@ i {
     margin: 0;
 }
 
-
 #hero-img {
     object-position: 50% 50%;
 }
 
-
 .active {
     text-decoration: underline;
 }
-
 
 .carousel-scroll {
     display: flex;
@@ -65,10 +54,8 @@ i {
     text-align: center;
     margin: 50px 0;
     padding: 0 30px;
-    max-width: 500px;
+    max-width: 400px;
 }
-
-
 
 .carousel-img {
     object-fit: cover;
@@ -76,14 +63,13 @@ i {
     border-radius: 15%;
     height: 250px;
     width: 300px;
-    border: 3px solid white
+
 }
 
 .menber-social-wrapper {
 
     margin-top: auto;
 }
-
 
 .member-social {
     font-size: 2em;
@@ -107,7 +93,6 @@ i {
     height: 600px;
     object-fit: cover;
 }
-
 
 .octagon {
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
@@ -147,7 +132,6 @@ footer {
 }
 
 
-
 @media (max-width: 935px) {
     #footer-content-wrapper {
         justify-content: center;
@@ -162,6 +146,7 @@ footer {
         width: 500px !important;
     }
 }
+
 
 @media (max-width: 527px) {
 
