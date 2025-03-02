@@ -17,6 +17,10 @@ footer {
 
 }
 
+.hero-button {
+    background-color: linear-gradient(to left, #a0512d21, black, #a0512d21) !important;
+
+}
 
 
 section {

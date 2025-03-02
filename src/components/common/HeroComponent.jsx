@@ -9,7 +9,7 @@ export default function HeroComponent({ place, scrollRef }) {
     link =
       <Link
         to="/TalesInteractive/progetti"
-        className="absolute mt-50 mr-0 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
+        className="hero-button absolute mt-50 mr-0 w-40 px-6 py-3 bg-gradient-to-r from-black to-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
         Scopri di più
       </Link>
   } else if (place === "projects") {
@@ -19,7 +19,7 @@ export default function HeroComponent({ place, scrollRef }) {
         onClick={() => {
           scrollRef.current?.scrollIntoView({ behavior: "smooth" })
         }}
-        className="absolute mt-50 mr-0 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
+        className="hero-button absolute mt-50 mr-0 w-40 px-6 py-3  text-[#f5f5dc] bg-gradient-to-r from-black to-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
         Scopri di più
       </button>
   }
@@ -33,7 +33,7 @@ export default function HeroComponent({ place, scrollRef }) {
 
       <Link
         to="/progetti"
-        className="hidden absolute mt-50 ml-50 w-40 px-6 py-3 bg-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
+        className="absolute hidden mt-50 ml-50 w-40 px-6 py-3 bg-gradient-to-r from-[#a0522d] to-black text-[#f5f5dc] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
         Vedi Trailer
       </Link>
       {link}
