@@ -1,13 +1,13 @@
 import simone from "../assets/member-img/simone.jpg"
 import sergio from "../assets/member-img/sergio.jpg"
 import carlo from "../assets/member-img/carlo.jpg"
-import img1 from "../assets/member-img/img1.jpg"
+import gabriele from "../assets/member-img/gabriele.jpg"
 import gloria from "../assets/member-img/gloria.jpg"
-import img2 from "../assets/member-img/img2.jpg"
+import riccardo from "../assets/member-img/riccardo.jpg"
 import emanuele from "../assets/member-img/emanuele.jpg"
 import laura from "../assets/member-img/laura.jpg"
 import luisa from "../assets/member-img/luisa.jpg"
-import img3 from "../assets/member-img/img3.jpg"
+import gianpaolo from "../assets/member-img/gianpaolo.jpg"
 import massimiliano from "../assets/member-img/massimiliano.jpg"
 import tullio from "../assets/member-img/tullio.jpg"
 
@@ -19,9 +19,9 @@ const teamMembers = [
         surname: "Striano",
         role: "3D Artist",
         img: simone,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
 
     },
     {
@@ -30,9 +30,9 @@ const teamMembers = [
         surname: "Spissu",
         role: "Art Director",
         img: sergio,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
     {
         id: 3,
@@ -40,46 +40,46 @@ const teamMembers = [
         surname: "Dettori",
         role: "Lead Developer",
         img: carlo,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
     {
         id: 4,
         name: "Riccardo",
         surname: "Casula",
         role: "3D Environmental Artist",
-        img: "https://placehold.co/600x600",
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        img: riccardo,
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     }, {
         id: 5,
         name: "Gloria",
         surname: "Tambarrini",
         role: "Environment Concept Artist",
         img: gloria,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     }, {
         id: 6,
         name: "Gian Paolo",
         surname: "Demontis",
         role: "3D Environmental Artist",
-        img: "https://placehold.co/600x600",
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        img: gianpaolo,
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     }, {
         id: 7,
         name: "Gabriele",
         surname: "Orotelli",
         role: "3D Artist & Texture",
-        img: "https://placehold.co/600x600",
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        img: gabriele,
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
     {
         id: 9,
@@ -87,9 +87,9 @@ const teamMembers = [
         surname: "Garau",
         role: "Developer",
         img: laura,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
     {
         id: 10,
@@ -97,9 +97,9 @@ const teamMembers = [
         surname: "Rapisarda",
         role: "Character Concept Artist",
         img: luisa,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
     {
         id: 11,
@@ -107,9 +107,9 @@ const teamMembers = [
         surname: "Toscano",
         role: "Composer & Sound Designe",
         img: emanuele,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
     {
         id: 12,
@@ -117,9 +117,9 @@ const teamMembers = [
         surname: "Moro",
         role: "3D Artist & Animato",
         img: massimiliano,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
     {
         id: 13,
@@ -127,9 +127,9 @@ const teamMembers = [
         surname: "Corazza",
         role: "Narrative Designer",
         img: tullio,
-        Facebook: "",
-        Twitter: "",
-        Instagram: ""
+        facebook: "",
+        twitter: "",
+        linkedin: ""
     },
 
 ];
