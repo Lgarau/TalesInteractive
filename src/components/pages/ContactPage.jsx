@@ -1,5 +1,5 @@
 import { useState } from "react";
-const thermsAndCondition = document.getElementById("therms-and-conditions")
+import { useRef } from "react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -7,6 +7,7 @@ export default function ContactPage() {
     email: "",
     message: "",
   });
+  const thermsAndConditionRef = useRef(null);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -28,7 +29,7 @@ export default function ContactPage() {
   };
 
   const toggleTerms = () => {
-    thermsAndCondition.classList.toggle("hidden");
+    thermsAndConditionRef.current.classList.toggle("hidden");
   }
 
   return (
@@ -67,7 +68,7 @@ export default function ContactPage() {
           className="border p-4 rounded-md w-full h-48 resize-none focus:ring-2 focus:outline-none"
           required
         />
-        <div id="therms-and-conditions" className="hidden padding bg-black border rounded-4xl text-white p-10">
+        <div id="therms-and-conditions" ref={thermsAndConditionRef} className="hidden padding bg-black border rounded-4xl text-white p-10">
           {/* intro */}
           <h1>Informativa sulla Privacy</h1><br />
           <p><strong>Ultimo aggiornamento: </strong>02/03/2025</p><br />
@@ -141,9 +142,9 @@ export default function ContactPage() {
           <h1 className="text-xl"><strong>Contatti</strong></h1>
           <p>Per qualsiasi domanda relativa alla presente informativa sulla privacy, puoi contattarci all’indirizzo email: <strong>info@talesinteractive.it</strong></p>
         </div>
-        <div class="flex items-center">
+        <div className="flex items-center">
           <input required id="link-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-          <label for="link-checkbox" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <button onClick={() => { toggleTerms() }} href="#" class="text-blue-600 dark:text-blue-500 hover:underline">terms and conditions</button>.</label>
+          <label htmlFor="link-checkbox" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <button onClick={toggleTerms} href="#" className="text-blue-600 dark:text-blue-500 hover:underline">terms and conditions</button>.</label>
         </div>
         <button
           type="submit"
