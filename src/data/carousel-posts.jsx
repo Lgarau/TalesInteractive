@@ -1,6 +1,6 @@
 import head from "../assets/head.jpg"
 import guardia from "../assets/guardia.jpg"
-import logo from "../assets/marrone-logo.svg";
+import logo from "../assets/marrone-logo-wider.png";
 
 const carouselPosts = [
     {
