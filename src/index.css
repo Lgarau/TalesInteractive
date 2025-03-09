@@ -55,7 +55,7 @@ i {
     text-align: center;
     margin: 50px 0;
     padding: 0 30px;
-    max-width: 350px;
+    max-width: 380px;
 }
 
 .carousel-img {
@@ -63,7 +63,7 @@ i {
     background-color: black;
     border-radius: 15%;
     height: 250px;
-    width: 300px;
+    width: 380px;
 }
 
 .menber-social-wrapper {
@@ -129,6 +129,10 @@ footer {
 
 
 @media (max-width: 957px) {
+    .carousel-card {
+        max-width: 500px;
+    }
+
     #footer-content-wrapper {
         justify-content: center;
     }
