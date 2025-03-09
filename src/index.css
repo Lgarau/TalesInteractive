@@ -88,6 +88,7 @@ i {
 
 .project-concept-art {
     object-fit: cover;
+    max-height: 1000px;
 }
 
 .octagon {
@@ -129,6 +130,10 @@ footer {
 
 
 @media (max-width: 957px) {
+    .carousel {
+        padding-top: 20px
+    }
+
     .carousel-card {
         max-width: 500px;
     }
@@ -164,6 +169,7 @@ footer {
     section {
         max-width: 1800px;
         margin: 0 auto;
+        padding: 0
     }
 
     #agnesia-info-wrapper {

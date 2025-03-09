@@ -2,7 +2,7 @@ import HeroComponent from "../common/HeroComponent";
 import agnesiaInfo from "../../data/agnesia-info";
 import { useRef } from "react";
 import agnese from "../../assets/agnese-e-matteo-bw-concept-art.jpg"
-import vicario from "../../assets/vicario-bw-concept-art1.jpg"
+import vicario from "../../assets/vicario-bw-concept-art.jpg"
 export default function ProjectsPage() {
   const scrollRef = useRef(null);
   function ProjectInfoComponent({ icon, content, id }) {

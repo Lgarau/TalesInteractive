@@ -180,8 +180,8 @@ export default function ContactPage() {
 
       <div className="mt-40 text-2xl text-center space-y-12">
         <h3 className="text-4xl font-bold text-[#a0522d] mb-16">INFORMAZIONI</h3>
-        <p className="text-white">📍 <br />Via Attillio Defenu, 07100, Sassari - ITALIA</p>
-        <p className="text-white">📧<br />support@talesinteractive.it</p>
+        <p className="text-white">📍 <br />Via Attillio Deffenu, 07100, Sassari - ITALIA</p>
+        <p className="text-white">📧<br />info@talesinteractive.it</p>
         <p className="text-white">📞<br />+379 1005178</p>
       </div>
     </div>
