@@ -30,11 +30,11 @@ export default function FooterComponent() {
                         <div id="footer-block-2" className="footer-block px-5 border-s border-e-white flex flex-col justify-between">
                             <div>
                                 <p>Tutti i diritti riservati</p>
-                                <p>P.IVA___________</p>
+                                <p>P.IVA (03025250907)</p>
                             </div>
                             <div>
                                 <p>Copiright © 2025</p>
-                                <p>Tales interactive srls</p>
+                                <p>TALES INTERACTIVE S.R.L.S.</p>
                             </div>
                         </div>
 

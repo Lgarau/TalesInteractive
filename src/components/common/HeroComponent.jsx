@@ -19,7 +19,7 @@ export default function HeroComponent({ place, scrollRef }) {
         onClick={() => {
           scrollRef.current?.scrollIntoView({ behavior: "smooth" })
         }}
-        className="hero-button absolute mt-50 mr-0 w-40 px-6 py-3  text-[#f5f5dc] bg-gradient-to-r from-black to-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
+        className="hero-button absolute mt-80 mr-0 w-40 px-6 py-3  text-[#f5f5dc] bg-gradient-to-r from-black to-[#a0522d] text-[#f5f5dc] rounded-full shadow-lg hover:bg-opacity-80 z-1000">
         Scopri di più
       </button>
   }

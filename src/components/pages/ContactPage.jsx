@@ -22,7 +22,7 @@ export default function ContactPage() {
 
     const subject = `Contatto da ${formData.name}`;
     const body = `Nome: ${formData.name}\nEmail: ${formData.email}\n\nMessaggio:\n${formData.message}`;
-    const mailtoLink = `mailto:support@talesinteractive.it?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:info@talesinteractive.it?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Apre il client di posta con i dati precompilati
     window.location.href = mailtoLink;
