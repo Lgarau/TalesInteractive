@@ -26,7 +26,7 @@ export default function HeaderComponent() {
 
                 {/* Logo centrale */}
                 <NavLink to="/TalesInteractive/home">
-                    <img src={Logo} alt="TalesInteractiveLogo" id="logo" className="pl-10 max-h-50 object-contain" />
+                    <img src={Logo} alt="TalesInteractiveLogo" id="logo" className="pl-16 max-h-50 object-contain" />
                 </NavLink>
 
                 <NavLink to="/TalesInteractive/team" className={({ isActive }) => `my-nav text-[#a0522d] ${isActive ? "text-white font-bold" : ""}`}>Team</NavLink>
