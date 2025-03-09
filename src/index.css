@@ -211,6 +211,18 @@ footer {
     }
 
 
+    #arrows {
+        height: 20px;
+
+    }
+
+    #l-arrow-body,
+    #r-arrow-body {
+        display: inline-block;
+
+        height: 4px;
+    }
+
     #footer-block-3 {
         text-align: left;
         margin: 0;
