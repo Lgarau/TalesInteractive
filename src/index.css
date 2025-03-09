@@ -110,7 +110,7 @@ i {
 
 #l-arrow-head,
 #l-arrow-tail {
-    transform: scale(-100%);
+    transform: scaleX(-100%);
 }
 
 #l-arrow-body,
