@@ -30,7 +30,7 @@ export default function FooterComponent() {
                         <div id="footer-block-2" className="footer-block px-5 border-s border-e-white flex flex-col justify-between">
                             <div>
                                 <p>Tutti i diritti riservati</p>
-                                <p>P.IVA (03025250907)</p>
+                                <p>P.IVA ( 03025250907 )</p>
                             </div>
                             <div>
                                 <p>Copiright © 2025</p>
@@ -54,11 +54,11 @@ export default function FooterComponent() {
 
                         <div id="footer-block-4" className=" footer-block flex flex-col justify-center px-5 border-s border-e-white">
                             <h1 className="inline-block text-white pb-3">CONTATTI</h1>
-                            <div className="flex flex-col items-start">
+                            <div className="flex flex-col">
                                 <p>Sassari - ITALIA</p>
                                 <p>Via Attillio Defenu, 07100</p>
                                 <p>info@talesinteractive.it</p>
-                                <div>
+                                <div id="social-links-wrapper-f" className="flex gap-5">
                                     <a href="https://www.facebook.com/profile.php?id=61565965654373"><i className="member-social-footer fa-brands fa-facebook-f"></i></a>
                                     <a href="https://www.instagram.com/tales.interactive/"><i className="member-social-footer fa-brands fa-instagram"></i></a>
                                     <a href="https://www.linkedin.com/company/tales-interactive/"><i className="member-social-footer fa-brands fa-linkedin-in"></i></a>
