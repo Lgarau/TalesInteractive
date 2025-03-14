@@ -12,7 +12,7 @@ terracotta chiara #cd7f32 */
 main,
 header,
 footer,
-arrows {
+#arrows {
     background-image: linear-gradient(to left, #a0512d21, black, #a0512d21);
 }
 
